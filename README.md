@@ -4,6 +4,11 @@
 
 Iki is a minimalist TypeScript framework for building elegant, structured RESTful APIs.
 
+- **Convention over configuration** - Organised project structure out of the box.
+- **Declarative routing** - Define your API surface clearly and simply.
+- **Fully ESM & tree-shakeable** - Modern module system, bundle only what you use.
+- **Zero-config TypeScript** - Built for TypeScript from day one.
+
 > Iki is still in early stages of development and things might be undocumented, if you want to contribute and help shape the project, please head over to [iki-dev/framework](https://github.com/iki-dev/framework).
 
 ## Getting Started
