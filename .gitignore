@@ -1,0 +1,17 @@
+# Node modules
+node_modules/
+
+# Build
+dist/
+*.db
+
+# IDEs
+.idea/
+.vscode/
+
+# Other
+*.log
+*.tmp
+*.swp
+*.DS_Store
+*.env

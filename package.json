@@ -1,0 +1,26 @@
+{
+  "name": "@iki-dev/iki",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "build:prod": "node -e \"import('./esbuild.config.js').then(c => c.buildApp())\"",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "node --test",
+    "start": "node dist/main.js",
+    "start:prod": "node dist/main.bundle.js",
+    "iki": "iki"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "esbuild": "^0.25.5",
+    "prettier": "3.5.3",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@iki-dev/framework": "^0.1.0",
+    "better-sqlite3": "^11.10.0"
+  }
+}
