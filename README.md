@@ -2,7 +2,7 @@
 
 <img src="https://github.com/iki-dev/framework/blob/main/assets/iki-logo.png" alt="Iki Logo" width="200" />
 
-Iki is a minimalist TypeScript framework for building elegant, structured RESTful APIs.
+Iki (ee-kee) is a minimalist TypeScript framework for building elegant, structured RESTful APIs.
 
 - **Convention over configuration** - Organised project structure out of the box.
 - **Declarative routing** - Define your API surface clearly and simply.
