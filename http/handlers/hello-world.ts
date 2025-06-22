@@ -1,7 +1,7 @@
-import { HttpStatus, Response, response } from "@iki-dev/framework";
+import { HttpStatus, HandlerFunc, response } from "@iki-dev/framework";
 
-class StatusController {
-  public async index(): Promise<Response> {
+export const helloWorld: HandlerFunc = () => {
+  return async () => {
     return response(HttpStatus.OK).json({
       name: "いき (Iki)",
       tagline: "Code with calm.",
@@ -14,7 +14,5 @@ class StatusController {
         discord: "https://discord.gg/iki-dev",
       },
     });
-  }
-}
-
-export const statusController = new StatusController();
+  };
+};

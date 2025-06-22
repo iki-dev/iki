@@ -1,6 +1,6 @@
 {
   "name": "@iki-dev/iki",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "type": "module",
   "main": "dist/main.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "@iki-dev/framework": "^0.1.0",
+    "@iki-dev/framework": "^1.0.0",
     "better-sqlite3": "^11.10.0"
   }
 }

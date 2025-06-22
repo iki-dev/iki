@@ -1,4 +1,4 @@
 import { router } from "@iki-dev/framework/http/router";
-import { statusController } from "./controllers/status.js";
+import { helloWorld } from "./handlers/hello-world.js";
 
-router.get("/").handler(statusController, "index");
+router.get("/", helloWorld());
